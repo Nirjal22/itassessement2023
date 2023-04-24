@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: black;
+    height: 30vh;
+}
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+    margin-left: -5%;
+}
+.logo{
+    height: 8vh;
+    margin-left: -9%;
+}
+ul{
+    display: flex;
+    padding: 0.1%;
+}
+ul li{
+    list-style: none;
+    font-size: 1.5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul li a{
+    padding: 1.4rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+ul li a:hover{
+    background-color: red;
+    padding:1.3rem;
+    border-radius: 4px;
+    color: whitesmoke;
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo_second{
+    max-width: 8vw;
+    min-height:15vh;
+    border-radius: 50%;
+    margin-top: -6%;
+}
+.title{
+    color: rgb(240, 11, 11);
+    font-size: 3rem;
+    margin-left: 7%;
+}
+.trainers{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-evenly;
+}
+.trainer_conor{
+    width: 35vw;
+    border: 2px solid white;
+}
+.conor{
+    max-width: 100%;
+    width: fit-content;
+}
+.trainer_floyd{
+     border: 2px solid white;
+     width: 35vw;
+}
+.floyd{
+    max-width: 100%;
+    width: fit-content;
+}
+.para{
+    font-size: 1rem;
+    padding: 1rem;
+}
+.para2{
+    font-size: 1rem;
+    padding: 1rem;
+}
+.last{
+    height: 35vh;
+    background-color: black;
+    margin-top: 5%;
+}
+.design_by{
+    color: white;
+    font-size: 2rem;
+}
+.designer{
+    /* width: 15vw; */
+    height: 30vh;
+    border-radius: 50%;
+}
+.design_by{
+    margin-left: 5%;
+    font-size: 5rem;
+}
+.ready{
+    margin-left: -1%;
+    color: red;
+    font-size: 5rem;
+}
+.last{
+    background-color: black;
+    height: 30vh;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.i1,.i2,.i3{
+    background-color: rgb(1, 1, 1);
+    height: 4vh;
+}
+.img_last{
+    margin-left: 31%;
+}
+#time_table 
+{
+    margin-left: 80%;
+    padding: 1rem;
+    width: 11vw;
+    background-color: red;
+    margin-top: 3%;
+}
+
+#time_table a{
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+
+
+/* ------------------------------------------------------------------------ */
+
+@media screen and (max-width:900px) {
+    .logo{
+        margin-left: -2%;
+    }
+    .title{
+        font-size: 2rem;
+        margin-top: 2%;
+    }
+    .trainer_conor{
+        width: 45vw;
+    }
+    .trainer_floyd{
+        width: 45vw;
+    }
+    .logo_second{
+        display: none;
+    }
+    .last{
+        display: flex;
+        align-items: center;
+    }
+    .design_by{
+        margin-left: 5%;
+        font-size: 3rem;
+    }
+    .ready{
+        margin-left: -11%;
+        color: red;
+        font-size: 3rem;
+    }
+
+}
+
+@media screen and (min-width:900px) and (max-width:1200px){
+
+    .design_by{
+        margin-left: 5%;
+        font-size: 3rem;
+    }
+    .ready{
+        margin-left: -11%;
+        color: red;
+        font-size: 3rem;
+    }
+    .trainer_conor{
+        width: 47vw;
+    }
+    .trainer_floyd{
+        width: 47vw;
+    }
+
+}
+
+@media screen and (min-width:1200px) and (max-width:1400px){
+
+    .design_by{
+        margin-left: 5%;
+        font-size: 5rem;
+    }
+    .ready{
+        margin-left: -3%;
+        color: red;
+        font-size: 5rem;
+    }
+    .trainer_conor{
+        width: 49vw;
+    }
+    .trainer_floyd{
+        width: 49vw;
+    }
+
+}

@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: black;
+    height: 30vh;
+}
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+    margin-left: -12%;
+}
+.logo{
+    height: 8vh;
+}
+ul{
+    display: flex;
+    padding: 0.1%;
+}
+ul li{
+    list-style: none;
+    font-size: 1.5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul li a{
+    padding: 1.4rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+ul li a:hover{
+    background-color: red;
+    padding:1.3rem;
+    border-radius: 4px;
+    color: whitesmoke;
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo_second{
+    max-width: 8vw;
+    min-height:15vh;
+    border-radius: 50%;
+    margin-top: -6%;
+    margin-left: -150%;
+}
+.title{
+    color: rgb(240, 11, 11);
+    font-size: 3rem;
+    margin-left: 7%;
+}
+.tools{
+    margin-top: 5%;
+}
+.tools_boxing{
+    margin-top: -2%;
+    font-size: 4rem;
+    margin-left: 5%;
+}
+#box{
+    color: red;
+}
+.boxing_e{
+    margin-left: 5%;
+}
+ol{
+    margin-left: 6%;
+}
+ol li{
+    font-size: 1.5rem;
+    padding: 0.45rem;
+}
+.contact{
+    padding: 1rem 3rem;
+    color: white;
+    background-color: black;
+    font-size: 1.3rem;
+    position: absolute;
+    right: 9%;
+    margin-top: -8%;
+    cursor: pointer;
+}
+.footer{
+    height: 46vh;
+}
+.bottom{
+    background-image: url('/Second_page/Image/footer.jpg');
+    height: 45vh;
+    background-position: top;
+    background-size: cover;
+    
+}
+.img_last{
+    margin-left: 85%;
+
+}
+.i1,.i2,.i3{
+    height: 4vh;
+    margin-top: 32%;
+}
+

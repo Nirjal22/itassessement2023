@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: black;
+    height: 30vh;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+    clip-path: polygon(0 0, 100% 0, 100%, 85%, 0 100%);
+}
+
+.logo {
+    height: 8vh;
+    margin-left: -15%;
+}
+
+ul {
+    display: flex;
+    padding: 0.1%;
+}
+
+ul li {
+    list-style: none;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul li a {
+    padding: 1.4rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+ul li a:hover {
+    background-color: red;
+    padding: 1.3rem;
+    border-radius: 4px;
+    color: whitesmoke;
+}
+
+.second {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo_second {
+    max-width: 8vw;
+    min-height: 15vh;
+    margin-top: -6%;
+    margin-left: -120%;
+}
+
+.title {
+    color: rgb(240, 11, 11);
+    font-size: 3rem;
+    margin-left: 7%;
+}
+
+
+.blog{
+    border: 2px solid rgb(249, 246, 246);
+    width: 80vw;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.para{
+    font-size: 1rem;
+    font-weight:500
+}
+.welcome{
+    font-weight: 800;
+    font-size: 1.1rem;
+}
+.come{
+    font-weight: 900;
+    font-size: 1.1rem;
+}
+.benefit{
+    font-weight: 900;
+    font-size: 1.1rem;
+}
+.fight{
+    font-weight: 900;
+    font-size: 1.1rem;
+}
+.last{
+    height: 30vh;
+    background-color: black;
+    margin-top: 1.7%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.h2{
+    color: aliceblue;
+    font-size: 2.2rem;
+}
+.bleed{
+    color: red;
+}
+.last_image_1{
+    height: 4vh;
+    /* background-color: aliceblue;s */
+    border-radius: 50%;
+    margin: 6px;
+    cursor: pointer;
+}
+.last_image_2{
+   height: 4vh;
+   /* background-color: aliceblue; */
+   border-radius: 50%;
+   margin: 6px;
+   cursor: pointer;
+}
+.last_image_3{
+    height: 4vh;
+    /* background-color: aliceblue; */
+    border-radius: 50%;
+    margin: 6px;
+    cursor: pointer;
+}
+.div{
+    margin-left: -50%;
+    margin-top: 11%;
+   
+}
+/* .location{
+    background-color: aliceblue;
+    height: 4vh;
+    border-radius: 50%;
+} */
+/* .loc{
+    color: white;
+} */
+
+
+
+@media screen and (max-width:900px) {
+    
+    .logo_second{
+        display: none;
+    }
+    ul li{
+        font-size: 1rem;  
+    }
+    ul li a{
+      padding: 1rem;
+    }
+}
+
+
+
+

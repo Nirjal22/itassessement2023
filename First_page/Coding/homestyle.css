@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.whole {
+    background-color: rgb(231, 231, 223);
+    margin-top: -1.5%;
+    height: 100vh;
+}
+
+.top {
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+    /* margin-left: -6%; */
+}
+
+.logo {
+    height: 8vh;
+    margin-left: -17%;
+}
+
+ul {
+    display: flex;
+    padding: 0.3%;
+}
+
+ul li {
+    list-style: none;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul li a {
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover {
+    background-color: red;
+    padding: 13px;
+    border-radius: 4px;
+    color: whitesmoke;
+}
+
+.sec::before {
+    content: "";
+    position: absolute;
+    height: 65%;
+    width: 100%;
+    z-index: -1;
+    background-image: url('/First_page/ImgHome/background_top.jpg');
+    top: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+    background-position: right;
+}
+
+.quote {
+    margin-top: 12%;
+    color: white;
+    margin-left: 14%;
+    ;
+    font-size: 5rem;
+}
+
+.a {
+    margin-left: -4%;
+    font-size: 6rem;
+}
+
+.ali {
+    color: red;
+    margin-left: 0.5%;
+}
+
+.fight {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.border {
+    border: 6px solid red;
+    width: 0vw;
+    height: 22vh;
+    margin-top: 2%;
+}
+
+.header {
+    margin-left: 2%;
+    /* margin-top: -1%; */
+    font-size: 4rem;
+    /* font-family: 'Zeyada', cursive; */
+}
+
+.last {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxing {
+    margin-top: 4%;
+    margin-left: 2%;
+    width: 250vw;
+}
+
+.fighting {
+    max-width: 100%;
+    width: fit-content;
+}
+
+.para {
+    position: absolute;
+    margin-top: 3.5%;
+    font-size: 1.05rem;
+    width: 50%;
+    left: 45%;
+}
+
+.register {
+    margin-top: 2%;
+    position: absolute;
+    right: 5%;
+
+}
+
+.button {
+    padding: .5rem 2.5rem;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+}
+
+.foot {
+    background-color: black;
+    height: 22vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.information {
+    color: white;
+    font-size: 2rem;
+    margin-left: 2%;
+}
+
+.info {
+    color: red;
+}
+
+.for {
+    margin-left: 18%;
+}
+.image1,.image2,.image3{
+    height: 3vh;
+}
+.icons{
+    margin-left: -12%;
+    margin: 11%;
+}
+
+
+
+
+/* Media queries */
+
+
+@media screen and (max-width: 900px) {
+
+    .whole {
+        height: 180vh;
+    }
+
+    .logo {
+        margin-left: -8%;
+    }
+
+    ul {
+        padding: 0.05%;
+    }
+
+    ul li {
+        font-size: 1rem;
+    }
+
+    ul li a {
+        padding: 17px;
+    }
+
+    .sec::before {
+        opacity: 0.75;
+    }
+
+    .quote {
+        font-size: 4rem;
+        margin-top: 7%;
+    }
+
+    .header {
+        font-size: 2rem;
+    }
+
+    .boxing {
+        display: inline-block;
+    }
+
+    .fighting {
+        width: 190%;
+        margin-left: -1%;
+    }
+
+    .para {
+        margin-top: 62%;
+        width: 95%;
+        margin-left: -42%;
+    }
+
+    .register {
+        margin-top: 35%;
+    }
+
+    .button {
+        padding: .3rem, 2rem;
+        font-size: 1.3rem;
+    }
+
+}
+
+@media screen and (min-width: 900px) and (max-width:1100px) {
+    
+    .whole {
+        height: 180vh;
+    }
+
+    .logo {
+        margin-left: -8%;
+    }
+
+    ul {
+        padding: 0.05%;
+    }
+
+    ul li {
+        font-size: 1rem;
+    }
+
+    ul li a {
+        padding: 17px;
+    }
+
+    .sec::before {
+        opacity: 0.75;
+    }
+
+    .quote {
+        font-size: 4rem;
+        margin-top: 7%;
+    }
+
+    .header {
+        font-size: 3rem;
+    }
+
+    .boxing {
+        display: inline-block;
+    }
+
+    .fighting {
+        width: 190%;
+        margin-left: -1%;
+    }
+
+    .para {
+        margin-top: 62%;
+        width: 95%;
+        margin-left: -42%;
+        font-size: 1.1rem;
+    }
+
+    .register {
+        margin-top: 35%;
+    }
+
+    .button {
+        padding: .3rem, 2rem;
+        font-size: 1.3rem;
+    }
+
+ 
+    
+}
+
+@media screen and (min-width: 1100px) and (max-width:1300px) {
+
+    .whole{
+        height: 105vh;
+    }
+
+    .logo {
+        margin-left: -11%;
+    }
+
+    ul {
+        padding: 0.5%;
+    }
+
+    ul li {
+        font-size: 1rem;
+    }
+    /* .sec::before{
+         opacity: 0.75; 
+    } */
+    .quote{
+        font-size: 5rem;
+        margin-top: 10%;
+    }
+    .header{
+        font-size: 2.7rem;
+    }
+    .fighting{
+        margin-left: -1%;
+    }
+    .para{
+        font-size: 1rem;
+        margin-left: 4%;
+    }
+   
+}
+
+@media screen and (min-width: 1300px) and (max-width:1400px) {
+
+    .whole{
+        height: 115vh;
+    }
+
+    .logo {
+        margin-left: -11%;
+    }
+
+    ul {
+        padding: 0.5%;
+    }
+
+    ul li {
+        font-size: 1rem;
+    }
+    .sec::before{
+        opacity: 0.75;
+    }
+    .quote{
+        font-size: 5rem;
+    }
+    .header{
+        font-size: 2.7rem;
+    }
+    .fighting{
+        margin-left: -1%;
+    }
+    .para{
+        font-size: 1rem;
+        margin-left: 4%;
+    }
+    
+   .sec{
+    margin-top: -11%;
+   }
+}
+
+@media screen and (min-width: 1400px) and (max-width:1600px){
+
+    .whole{
+        height: 115vh;
+    }
+
+    .sec{
+        margin-top: -11%;
+       }
+
+    .register{
+        margin-top:2%;
+    }
+    
+
+}

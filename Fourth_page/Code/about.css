@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: black;
+    height: 30vh;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+    clip-path: polygon(0 0, 100% 0, 100%, 85%, 0 100%);
+}
+
+.logo {
+    height: 8vh;
+    margin-left: -15%;
+}
+
+ul {
+    display: flex;
+    padding: 0.1%;
+}
+
+ul li {
+    list-style: none;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul li a {
+    padding: 1.4rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+ul li a:hover {
+    background-color: red;
+    padding: 1.3rem;
+    border-radius: 4px;
+    color: whitesmoke;
+}
+
+.second {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo_second {
+    max-width: 8vw;
+    min-height: 15vh;
+    margin-top: -6%;
+    margin-left: -50%;
+}
+
+.title {
+    color: rgb(240, 11, 11);
+    font-size: 3rem;
+    margin-left: 7%;
+}
+
+.us {
+    color: white;
+}
+
+.owner {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.owner_photo {
+    width: 54vw;
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+.image1 {
+    max-width: 100%;
+    width: fit-content;
+}
+
+.owner_info {
+    margin-right: 12%;
+    font-size: 1.1rem;
+    width: 40%;
+    /* margin-left: 3%; */
+}
+
+.detail {
+    font-size: 2.4rem;
+    font-weight: 800;
+}
+
+.name {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-left: 10%;
+}
+
+.number {
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-left: 10%;
+    margin-left: 4%;
+}
+
+.m_ali {
+    width: 30vw;
+    margin-left: 60%;
+}
+
+.quote {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.champ {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: red;
+}
+
+/* .foot {
+    background-color: black;
+    height: 18vh;
+    margin-top: 2%;
+}
+
+.last_quote {
+    color: aliceblue;
+    font-size: 2.5rem;
+    margin-left: 4%;
+}
+
+.last_q2 {
+    color: red;
+    font-size: 2.5rem;
+    margin-left: 4%;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+} 
+.i1,.i2,.i3{
+    height: 4vh;
+    /* margin: 6%; */
+   
+
+.last{
+    background-color: black;
+    height: 22vh;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.i1,.i2,.i3{
+    background-color: rgb(1, 1, 1);
+    height: 4vh;
+}
+.img_last{
+    margin-left: 31%;
+}
+.sw{
+    color: white;
+    font-size: 2.5rem;
+}
+.sweat{
+    color: red;
+}
+
+
+
+
+
+
+/* ----------------------------------------------------------- */
+
+@media screen and (max-width:900px) {
+
+    .logo {
+        margin-left: -11%;
+    }
+
+    ul li {
+        font-size: 1rem;
+    }
+
+    ul li a {
+        padding: 1rem;
+    }
+
+    .title {
+        font-size: 2.5rem;
+        margin-top: 2%;
+    }
+
+    .logo_second {
+        display: none;
+    }
+
+    .image1 {
+        margin-left: -8%;
+    }
+
+    .owner_info {
+        min-height: 20vh;
+        width: 75vw;
+    }
+
+    .para {
+        font-size: 1rem;
+        margin-top: 7%;
+    }
+
+    .detail {
+        font-size: 1.7rem;
+        font-weight: 500;
+        margin-top: 11%;
+    }
+
+    .name {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .number {
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+
+    .m_ali {
+        width: 40vw;
+    }
+
+    .quote {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .champ {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+}
+
+
+@media screen and (min-width:900px) and (max-width:1100px) {
+
+    .logo {
+        margin-left: -8%;
+    }
+
+    ul li {
+        font-size: 1.4rem;
+    }
+
+    ul li a {
+        padding: 1.3rem;
+    }
+
+    .title {
+        font-size: 2.7rem;
+        margin-top: 2.3%;
+    }
+
+    .owner_info {
+        width: 55vw;
+        /* margin-left: 10%; */
+    }
+
+    .para {
+        font-size: 1.2rem;
+        margin-top: 9%;
+    }
+
+    .image1 {
+        margin-left: -10%;
+    }
+}

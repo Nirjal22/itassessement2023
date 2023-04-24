@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: black;
+    height: 20vh;
+}
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+}
+.logo{
+    height: 8vh;
+    margin-left: -9%;
+}
+ul{
+    display: flex;
+    padding: 0.1%;
+}
+ul li{
+    list-style: none;
+    font-size: 1.5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul li a{
+    padding: 1.4rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+ul li a:hover{
+    background-color: red;
+    padding:1.3rem;
+    border-radius: 4px;
+    color: whitesmoke;
+}
+.foot {
+    background-color: black;
+    margin-top: 15%;
+    height: 22vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.information {
+    color: white;
+    font-size: 2rem;
+    margin-left: 2%;
+}
+
+.info {
+    color: red;
+}
+
+.for {
+    margin-left: 18%;
+}
+.image1,.image2,.image3{
+    height: 3vh;
+}
+.icons{
+    margin-left: -12%;
+    margin: 11%;
+}
+
+/* .Table{
+    align-items: center;
+} */
+</style>
+<body>
+    <nav>
+        <div class="navigation">
+            <img src="/First_page/ImgHome/logo1.png" alt="" class="logo">
+            <ul>
+                <li><a href="/First_page/Coding/home.html">Home</a></li>
+                <li><a href="/Fourth_page/Code/about.html">About us</a></li>
+                <li><a href="/Third_page/Coding/trainer.html">Classes</a></li>
+                <li><a href="/Fifth_page/Coding/blog.html">Blog</a></li>
+                <li><a href="/Second_page/Coding/equipments.html">Shop</a></li>
+            </ul>
+        </div>
+        </nav>
+
+   <center>
+    <table border="1" cellspacing="0" cellpadding="0" width="50%"> 
+        <caption align="center">Time Schedule:</caption>
+        <tr bgcolor="black" align="center">
+        <th rowspan="2"><font color="fffff"> S.N.</font></th>
+        <th rowspan="2"><font color="fffff"> Place</font></th>
+        <th colspan="2"><font color="fffff"> Time</font></th>
+        <th rowspan="2"><font color="fffff">Amount</font></th>
+        </tr>
+        <tr bgcolor="Black">
+            <th><font color="fffff">Starts</font></th>
+            <th><font color="fffff">End</font></th>
+        </tr>
+        <tr>
+        <td>Sunday</td>
+        <td rowspan="5">Thamel,Kathmandu</td>
+        <td>07:30</td>
+        <td>08:00</td>
+        <td rowspan="5">Rs.5000</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>09:00</td>
+            <td>10:15</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>11:30</td>
+            <td>12:25</td>
+        </tr>
+        <tr>
+            <td>Thrusday</td>
+            <td>7:30</td>
+            <td>8:30</td>
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td>16:00</td>
+            <td>17:30</td>
+        </tr>
+    </table>
+   </center>
+<footer class="foot">
+    <h1 class="information">Get Ready! <br> <span class="for">For</span>  <br> Next <span class="info">Information</span>
+
+    </h1>
+    <div class="icons">
+        <img src="/First_page/ImgHome/linkedin.png" alt="" class="image1">
+        <img src="/First_page/ImgHome/instagram.png" alt="" class="image2">
+        <img src="/First_page/ImgHome/facebook.png" alt="" class="image3">
+    </div>
+</footer>
+</body>
+</html>
